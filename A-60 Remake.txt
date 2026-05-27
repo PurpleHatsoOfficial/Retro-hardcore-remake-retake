@@ -27,30 +27,30 @@ local entity = Spawner:Create({
 	CameraShake = {
 		Enabled = true,
 		Range = 100,
-		Values = {1.5, 20, 0.1, 1} -- Magnitude, Roughness, FadeIn, FadeOut
+		Values = {10, 20, 0.1, 1} -- Magnitude, Roughness, FadeIn, FadeOut
 	},
 	Movement = {
-		Speed = 320,
-		Delay = 2,
+		Speed = 420,
+		Delay = 6,
 		Reversed = false
 	},
 	Rebounding = {
 		Enabled = true,
 		Type = "Ambush", -- "Blitz"
 		Min = 5,
-		Max = 9,
+		Max = 8,
 		Delay = 1
 	},
 	Damage = {
 		Enabled = true,
 		IgnoreHiding = false,
-		Range = 40,
+		Range = 10,
 		Amount = 150
 	},
 	Crucifixion = {
 		Enabled = true,
 		Range = 40,
-		Resist = true,
+		Resist = false,
 		Break = true
 	},
 	Death = {
